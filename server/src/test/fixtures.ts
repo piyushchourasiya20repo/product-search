@@ -1,0 +1,58 @@
+import type { Product } from "../modules/catalogue/index.js";
+
+export const products: Product[] = [
+  {
+    id: 1,
+    title: "Canvas Weekender",
+    price: 85,
+    description: "A durable cotton travel bag",
+    category: "bags",
+    image: "/one.png",
+    rating: { rate: 4.9, count: 100 },
+  },
+  {
+    id: 2,
+    title: "Everyday Watch",
+    price: 120,
+    description: "Minimal steel wrist watch",
+    category: "accessories",
+    image: "/two.png",
+    rating: { rate: 4.4, count: 20 },
+  },
+  {
+    id: 3,
+    title: "Leather Tote",
+    price: 140,
+    description: "Structured leather carryall",
+    category: "bags",
+    image: "/three.png",
+    rating: { rate: 4.8, count: 80 },
+  },
+  {
+    id: 4,
+    title: "Desk Clock",
+    price: 55,
+    description: "Quiet desk companion",
+    category: "home",
+    image: "/four.png",
+    rating: { rate: 4.7, count: 50 },
+  },
+  {
+    id: 5,
+    title: "Wool Scarf",
+    price: 65,
+    description: "Soft merino neck scarf",
+    category: "accessories",
+    image: "/five.png",
+    rating: { rate: 4.6, count: 60 },
+  },
+  {
+    id: 6,
+    title: "Glass Carafe",
+    price: 40,
+    description: "Clear glass water carafe",
+    category: "home",
+    image: "/six.png",
+    rating: { rate: 4.5, count: 10 },
+  },
+];

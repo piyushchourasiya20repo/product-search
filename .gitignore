@@ -1,0 +1,8 @@
+node_modules/
+dist/
+.env
+coverage/
+.local-mailbox/
+.outbox/
+*.log
+.DS_Store
